@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
-  "build": 10000,
+  "version": "1.0.1",
+  "build": 10001,
   "publishedAt": "2026-09-14",
   "minimumSystemVersion": "13.0",
-  "notes": "First release. A video or GIF as your desktop background, with a size rule that centres and sharpens small pictures instead of stretching them. Three wallpapers built in, per-display choices, and it stops playing when the desktop is covered.",
-  "downloadURL": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/download/v1.0.0/mango-wallpapers-1.0.0.dmg",
-  "sha256": "ac1f162fb4ca9aa67e149391dc47faef4ed3bc367159308cdaebbf6a63279c00",
-  "releasePage": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/tag/v1.0.0"
+  "notes": "Adds the Updates pane and the automatic update check every other Mango app has, and the six-card tour on first run. Deleting a built-in wallpaper now keeps it deleted, with a button in Settings to draw them again.",
+  "downloadURL": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/download/v1.0.1/mango-wallpapers-1.0.1.dmg",
+  "sha256": "a14e3fd59c3a8d0d9dfc328b7b55ca7d40679c5925381f75eae236492dfb9be3",
+  "releasePage": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/tag/v1.0.1"
 }
