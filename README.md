@@ -12,7 +12,7 @@ Made by Mingyu 🧑‍💻
 
 ![macOS](https://img.shields.io/badge/macOS-13%2B-202020?style=for-the-badge&logo=apple&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-AppKit%20%2B%20SwiftUI-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Version](https://img.shields.io/badge/version-1.0.1-7C5CFF?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.1.0-7C5CFF?style=for-the-badge)
 ![Price](https://img.shields.io/badge/price-free-2EA043?style=for-the-badge)
 ![Permissions](https://img.shields.io/badge/permissions%20to%20run-none-0EA5E9?style=for-the-badge)
 ![Data](https://img.shields.io/badge/data%20sent%20anywhere-none-2EA043?style=for-the-badge)

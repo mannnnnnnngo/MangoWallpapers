@@ -1,10 +1,10 @@
 {
-  "version": "1.0.1",
-  "build": 10001,
-  "publishedAt": "2026-09-14",
+  "version": "1.1.0",
+  "build": 10100,
+  "publishedAt": "2026-09-27",
   "minimumSystemVersion": "13.0",
-  "notes": "Adds the Updates pane and the automatic update check every other Mango app has, and the six-card tour on first run. Deleting a built-in wallpaper now keeps it deleted, with a button in Settings to draw them again.",
-  "downloadURL": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/download/v1.0.1/mango-wallpapers-1.0.1.dmg",
-  "sha256": "a14e3fd59c3a8d0d9dfc328b7b55ca7d40679c5925381f75eae236492dfb9be3",
-  "releasePage": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/tag/v1.0.1"
+  "notes": "Now genuinely replaces your Mac wallpaper: the lock screen, the menu bar and the moment before the app starts show a still of it too. It also opens at login by default, re-registers itself after updates, and puts its windows back if macOS drops them, so you never have to pick a wallpaper twice. Turn \"Use it as the Mac's own wallpaper too\" off in Settings to get your old wallpaper back.",
+  "downloadURL": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/download/v1.1.0/mango-wallpapers-1.1.0.dmg",
+  "sha256": "a1a2f50d3cbea1a9b9d28401b267cf592337b538c2bac901635046f1b8c5cf7f",
+  "releasePage": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/tag/v1.1.0"
 }
