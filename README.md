@@ -26,9 +26,10 @@ Made by Mingyu 🧑‍💻
 | | | |
 | --- | --- | --- |
 | [🧐 Why this exists](#-why-this-exists) | [📥 Install](#-install) | [👀 Using it](#-using-it) |
-| [📐 How it sizes things](#-how-it-sizes-things) | [🔋 When it stops playing](#-when-it-stops-playing) | [🖥️ More than one screen](#️-more-than-one-screen) |
-| [⚙️ Configuration](#️-configuration) | [🗂️ Where things live](#️-where-things-live) | [🚧 Known limitations](#-known-limitations) |
-| [🕶️ Privacy](#️-privacy) | [🗑️ Uninstall](#️-uninstall) | [⚖️ Licence](#️-licence) |
+| [📐 How it sizes things](#-how-it-sizes-things) | [🔒 The lock screen](#-the-lock-screen-and-the-menu-bar) | [🔋 When it stops playing](#-when-it-stops-playing) |
+| [🖥️ More than one screen](#️-more-than-one-screen) | [⚙️ Configuration](#️-configuration) | [🗂️ Where things live](#️-where-things-live) |
+| [🚧 Known limitations](#-known-limitations) | [🕶️ Privacy](#️-privacy) | [🗑️ Uninstall](#️-uninstall) |
+| [⚖️ Licence](#️-licence) | | |
 
 ---
 
@@ -106,6 +107,22 @@ rather than a different mode.
 
 ---
 
+## 🔒 The lock screen and the menu bar
+
+The moving part is a window, and macOS draws plenty without it: the lock screen, the translucent
+menu bar, and the few seconds between logging in and the app starting. All of those use the Mac's
+own wallpaper. So Mango Wallpapers sets that too — to a still frame of whatever is playing, drawn
+at the screen's full resolution with the same size rule. Pick something new and the lock screen
+follows.
+
+Your old wallpaper is remembered the first time. Turn **Use it as the Mac's own wallpaper too**
+off in Settings and it goes back.
+
+It also opens at login by default and checks on its windows every so often, so a wallpaper never
+has to be chosen twice.
+
+---
+
 ## 🔋 When it stops playing
 
 A loop running behind a full-screen window is battery spent on pixels nobody can see. Two knobs,
@@ -157,8 +174,9 @@ moment it is written; nothing is hardcoded with the intention of making it confi
   },
   "behavior": {
     "showMenuBarIcon": true,
-    "openAtLogin": false,
-    "copyFilesIn": true
+    "openAtLogin": true,
+    "copyFilesIn": true,
+    "replaceSystemWallpaper": true
   }
 }
 ```
@@ -172,6 +190,7 @@ moment it is written; nothing is hardcoded with the intention of making it confi
 | `wallpaper.opacity` | The whole thing, 0.1–1 |
 | `playback.speed` | Videos and GIFs alike |
 | `behavior.copyFilesIn` | Copy chosen files into the wallpapers folder rather than pointing at them where they are |
+| `behavior.replaceSystemWallpaper` | Also set the Mac's own wallpaper to a still of it — see below |
 
 A config file that won't parse is **left exactly where it is** — the app keeps whatever it had
 loaded and says so in the log, rather than overwriting the thing you were halfway through editing.
@@ -184,6 +203,7 @@ loaded and says so in the log, rather than overwriting the thing you were halfwa
 | --- | --- |
 | `~/.config/mangowallpapers/config.json` | Every setting |
 | `~/Library/Application Support/MangoWallpapers/media/` | The wallpapers folder |
+| `~/Library/Application Support/MangoWallpapers/system/` | The still used as the Mac's wallpaper |
 | `/Applications/Mango Wallpapers.app` | The app |
 
 `copyFilesIn` is on by default, so adding a file copies it into that folder. The alternative is a
