@@ -246,3 +246,5 @@ rm -rf ~/Library/Application\ Support/MangoWallpapers
 ## ⚖️ Licence
 
 Free to use, not free to take — see [LICENSE](LICENSE). The source is not published.
+
+🎓 Also by Mango: [High Honors](https://highhonors.pages.dev), a free student dashboard for Google Classroom, Gmail and Calendar
