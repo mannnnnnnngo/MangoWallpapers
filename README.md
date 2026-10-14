@@ -12,7 +12,7 @@ Made by Mingyu 🧑‍💻
 
 ![macOS](https://img.shields.io/badge/macOS-13%2B-202020?style=for-the-badge&logo=apple&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-AppKit%20%2B%20SwiftUI-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Version](https://img.shields.io/badge/version-1.1.0-7C5CFF?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.2.0-7C5CFF?style=for-the-badge)
 ![Price](https://img.shields.io/badge/price-free-2EA043?style=for-the-badge)
 ![Permissions](https://img.shields.io/badge/permissions%20to%20run-none-0EA5E9?style=for-the-badge)
 ![Data](https://img.shields.io/badge/data%20sent%20anywhere-none-2EA043?style=for-the-badge)
@@ -68,14 +68,15 @@ Everything is on the menu bar item:
 | --- | --- |
 | 🖼️ **The list at the top** | Everything in your wallpapers folder. Click one and the desktop changes immediately. |
 | ➕ **Add a video or GIF…** | `.mp4` `.mov` `.m4v` `.gif` `.webp` `.png` `.jpg` — and anything else AVFoundation can open. |
+| 🎮 **Basic** | Six free live wallpapers, downloaded the first time you pick one. |
 | 📐 **Size** | Automatic, fill, fit, stretch, centre or tile. See below. |
 | ⏸️ **Pause** | Freezes on the current frame rather than snapping back to the start. |
 | ⚙️ **Settings…** | The window, with previews of everything in your library. |
 
-It ships with three wallpapers — **Mango Bounce**, **Drift** and **Pulse** — so there is
-something to look at before you have added anything of your own. They aren't files in this
-repository: they're drawn by `Builtin.write` the first time the app runs, because a few seconds
-of video would be larger than every line of source here put together.
+🎮 **Basic** is a list of six free live wallpapers: Hornet - Silksong, Minecraft Cozy House,
+Minecraft Lantern, Animal Crossing, Black Cat and Floating Cat. They aren't inside the app. The
+first time you pick one, it downloads from the site that publishes it (moewalls.com,
+wallsflow.com, motionbgs.com), then it's a normal file in your library and plays at **Fill**.
 
 ---
 
