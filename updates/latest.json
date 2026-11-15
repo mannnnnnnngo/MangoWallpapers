@@ -1,10 +1,10 @@
 {
-  "version": "1.2.0",
-  "build": 10200,
-  "publishedAt": "2026-10-14",
+  "version": "2.0.0",
+  "build": 20000,
+  "publishedAt": "2026-11-15",
   "minimumSystemVersion": "13.0",
-  "notes": "New Basic list: Hornet - Silksong, Minecraft Cozy House, Minecraft Lantern, Animal Crossing, Black Cat and Floating Cat. Pick one and it downloads from the site that publishes it, then plays at Fill. The drawn Mango Bounce, Drift and Pulse are gone.",
-  "downloadURL": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/download/v1.2.0/mango-wallpapers-1.2.0.dmg",
-  "sha256": "e4a806c54b1ba56acb354c1d10f224bc8e446a5585ed9a81dc50f4ed24147f48",
-  "releasePage": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/tag/v1.2.0"
+  "notes": "Widgets, Rainmeter-style: a clock, live system stats (CPU, RAM, disk, battery, network, uptime) and your own text, drawn over the wallpaper and under your icons. Two styles: Mond (big spaced day name with the date and time underneath; uses Anurati and Quicksand if installed) and Panel (translucent cards with bars). Menu bar -> Widgets -> Arrange on desktop to drag them around, scroll to resize, right-click to hide. Settings has a new Widgets pane.",
+  "downloadURL": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/download/v2.0.0/mango-wallpapers-2.0.0.dmg",
+  "sha256": "abc4db06585db4a7898333ac332c0be68c4c4f006c8090321148bdbd9c4b15b3",
+  "releasePage": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/tag/v2.0.0"
 }
