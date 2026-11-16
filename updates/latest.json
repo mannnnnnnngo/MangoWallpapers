@@ -1,10 +1,10 @@
 {
-  "version": "2.0.0",
-  "build": 20000,
-  "publishedAt": "2026-11-15",
+  "version": "2.1.0",
+  "build": 20100,
+  "publishedAt": "2026-11-16",
   "minimumSystemVersion": "13.0",
-  "notes": "Widgets, Rainmeter-style: a clock, live system stats (CPU, RAM, disk, battery, network, uptime) and your own text, drawn over the wallpaper and under your icons. Two styles: Mond (big spaced day name with the date and time underneath; uses Anurati and Quicksand if installed) and Panel (translucent cards with bars). Menu bar -> Widgets -> Arrange on desktop to drag them around, scroll to resize, right-click to hide. Settings has a new Widgets pane.",
-  "downloadURL": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/download/v2.0.0/mango-wallpapers-2.0.0.dmg",
-  "sha256": "abc4db06585db4a7898333ac332c0be68c4c4f006c8090321148bdbd9c4b15b3",
-  "releasePage": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/tag/v2.0.0"
+  "notes": "- Widgets: dragging no longer snaps back on the clock refresh; bundle Quicksand + Michroma (OFL) so Mond widgets get their fonts\n- release 2.0.0\n- write widgets into old configs\n- fixed readme\n- widgets, mond style\n- release 1.2.0\n- basic wallpapers, drawn built-ins removed\n- release 1.1.0\n- replace the system wallpaper too\n- release 1.0.1\n- updater, tutorial, seed built-ins once\n- release 1.0.0\n- universal build without xcode\n- installer note",
+  "downloadURL": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/download/v2.1.0/mango-wallpapers-2.1.0.dmg",
+  "sha256": "6f473f3731f14a46372d92947d3c273cfbb65572898efc76d8c6cf8e4b62d2ec",
+  "releasePage": "https://github.com/mannnnnnnngo/MangoWallpapers/releases/tag/v2.1.0"
 }
